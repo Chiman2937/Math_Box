@@ -11,6 +11,7 @@ def multiply(a,b):
 def getMedian(a, b):
     return (a+b)/2
 
+
 def getRemainder(a, b):
     return a//b
 
@@ -22,8 +23,12 @@ def getAbs(num):
 
 def get_Percent(a,b):
 	return (a/b) * 100
+	
 def divide_new(a,b):
 	return a/b
 
 def say_hello():
 	print("hello")
+
+def getSum_ver1(n):
+    return n(n+1)/2
