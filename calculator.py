@@ -22,3 +22,8 @@ def getAbs(num):
 
 def get_Percent(a,b):
 	return (a/b) * 100
+def divide_new(a,b):
+	return a/b
+
+def say_hello():
+	print("hello")
