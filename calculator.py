@@ -8,9 +8,6 @@ def subtract(a,b):
 def multiply(a,b):
 	return a*b
 
-def divide_free(a,b):
-	retrun a/b
-
 def getMedian(a, b):
     return (a+b)/2
 
@@ -22,3 +19,6 @@ def getAbs(num):
 		return num
 	else:
 		return -num
+
+def get_Percent(a,b):
+	return (a/b) * 100
